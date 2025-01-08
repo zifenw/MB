@@ -1,6 +1,7 @@
 <template>
     <div>
         <p class="title">index</p>
+        <span class="icofont-heart"></span>
         <p class="bb">LESS是什么玩意</p>
     </div>
 </template>
@@ -44,5 +45,8 @@ export default {
   font-size: @size-16;
   color: @warning-color;
   background: @gray-2;
+}
+.icofont-heart{
+    color: @primary-color;
 }
 </style>
