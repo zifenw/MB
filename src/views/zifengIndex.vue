@@ -1,8 +1,6 @@
 <template>
     <div>
-        <p class="title">index</p>
-        <span class="icofont-heart"></span>
-        <p class="bb">LESS是什么玩意</p>
+        <router-view></router-view>
     </div>
 </template>
 
